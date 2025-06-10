@@ -1,0 +1,97 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: antiquewhite;
+    max-width: none;
+    max-height: none;
+}
+
+header{
+    background-color: rgb(54, 13, 168);
+    color: white;
+    padding: 2rem 1rem;
+    max-width: none;
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenedor {
+    max-height: none;
+    /* display: flex; */
+    gap: 20px;
+  }
+
+  .contenedor img {
+    display: block;
+    
+    margin: 0 auto;
+    width: 50%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  section a{
+    color: white;
+    text-decoration: none;
+    max-width: none;
+        width: 100%;
+        
+      
+      }
+
+  section article{
+    transition: box-shadow,color,background-color 1.5s ease;
+    background-color: rgb(26, 26, 27);
+    max-height: 100%;
+    margin: 0  0;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0.25rem 1rem;
+
+  }
+
+  section article h2,section article p{
+    text-align: center;
+  }
+
+section article:hover{
+    padding: 0.25rem 1rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(230, 227, 227, 0.4);
+    color:rgb(27, 172, 211);
+    background-color: rgb(42, 42, 43);
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+ color: #fff;
+ text-decoration: none;
+}
+
+footer a:hover{
+    color:rgb(15, 48, 107)
+
+}
+
+footer{
+    background-color: rgb(23, 13, 79);
+    padding: 3rem;
+    color: #fff;
+}
+

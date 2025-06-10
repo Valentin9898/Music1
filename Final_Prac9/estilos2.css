@@ -1,0 +1,152 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-height:none ;
+    max-width: none;
+    width: auto;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: antiquewhite;
+    max-width:none;
+    max-height: max-content;
+}
+
+
+header{
+    background-color: rgb(54, 13, 168);
+    color: white;
+    padding: 40px 40px;
+    max-width: none;
+
+
+}
+.flecha {
+    position:initial;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-image: url('IMAGENES/Flecha.png'); /* Reemplaza con tu imagen */
+    background-size: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.flecha:hover {
+    transform: scale(1.2) rotate(10deg); /* Animación al pasar el mouse */
+}
+header h1{
+    text-align: center;
+}
+
+header h2{  
+    text-align: center;
+}
+
+
+.flecha:hover {
+    transform: scale(1.2) rotate(10deg); /* Animación al pasar el mouse */
+}
+section {
+max-height: none;
+max-width: none;
+    display: flex;
+    /* gap: 20px; */
+  }
+
+img {
+  margin: 0 auto;
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+  height: 100%px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+  .a{
+    color: white;
+    text-decoration: none;
+    max-width: none;
+    
+        width: 100%;
+        /* padding: 2vw; */
+      
+      }
+
+  section a article{
+    transition: box-shadow,color,background-color 0.4s ease;
+    background-color: rgb(0,0,0);
+    max-height: 100%;
+    margin: 0  0;
+    border-radius: 10px;
+    padding: 0.25rem 0.5rem ;
+    cursor: pointer;
+      
+  }
+  img {
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+    max-width: 100%;
+    max-height: 100%;
+    width: 10rem;
+    height: 8rem;
+    object-fit:cover;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    padding: 4px 0;
+  }
+
+  section a article h6{
+    text-align: center;
+    margin: 10px;
+    font-size: 30%;
+  }
+
+section a article:hover{
+    padding: 0.25rem 1rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(230, 227, 227, 0.4);
+    color:rgb(27, 172, 211);
+    background-color: rgb(42, 42, 43);
+}
+
+
+
+
+
+footer{
+    background-color: rgb(23, 13, 79);
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.aa{
+    
+    text-align: center;
+    
+}
+
+footer a:hover{
+    color:rgb(15, 48, 107)
+
+}
+
+
+
